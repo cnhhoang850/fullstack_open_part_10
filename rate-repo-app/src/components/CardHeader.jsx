@@ -13,7 +13,8 @@ const Styles = StyleSheet.create({
         borderRadius: 5
     },
     flexContainer: {
-        flexDirection: 'row'
+        flexDirection: 'row',
+        marginBottom: 8
     },
     flex1: {
         flex: 1
@@ -31,12 +32,13 @@ const Styles = StyleSheet.create({
     },
     langLabel: {
         textAlign: 'center',
-        color: '#e1e4e8',
+        color: 'white',
         fontSize: 16
     },
     des: {
         marginTop: 6,
-        marginBottom:6
+        marginBottom:6,
+        color: 'grey'
     }
 });
 

@@ -6,7 +6,12 @@ const styles = StyleSheet.create({
     flexContainer: {
       padding: 14,
       backgroundColor: 'white',
-      flexDirection: 'column'
+      flexDirection: 'column',
+      borderRadius: 10,
+      alignSelf: 'center',
+      width: 360,
+      marginTop: 10,
+      marginBottom: 5
     },
     flexRow: {
         flexDirection: 'row',
